@@ -1,0 +1,26 @@
+name: TestPlugin
+version: 1.0
+main: com.knifesurge.test.Test
+description: Test Plugin
+
+commands:
+    remuu:
+        descrpition: "Get Rem to tell you a secret!"
+        permission: test.remuu
+        usage: "/remuu"
+    location:
+        description: "Get's your current X, Y, Z coords"
+        permission: test.location
+        usage: "/location"
+    change:
+        description: "Changes block under player to Glowstone"
+        permission: test.change
+        usage: "/change"
+    build:
+        description: "Builds a cube out of glowstone"
+        permission: test.build
+        usage: "/build"
+    swas:
+        description: "Creates a swastika out of glowstone"
+        permission: test.swastika
+        usage: "/swas"
