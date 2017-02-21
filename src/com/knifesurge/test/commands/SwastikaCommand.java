@@ -3,7 +3,6 @@ package com.knifesurge.test.commands;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
-import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -18,8 +17,6 @@ public class SwastikaCommand implements CommandExecutor{
 			Player player = (Player) sender;
 			World world = player.getWorld();
 			Location spot = player.getLocation();
-			Block block = spot.subtract(0,1,0).getBlock();
-			Material type = block.getType();
 			
 			int offset = 3;
 			

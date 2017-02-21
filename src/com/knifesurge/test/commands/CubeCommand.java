@@ -4,7 +4,6 @@ import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
-import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -19,8 +18,6 @@ public class CubeCommand implements CommandExecutor{
 		{
 			Player player = (Player)sender;
 			World world = player.getWorld();
-			Block block = player.getLocation().subtract(2,1,0).getBlock();
-			Material type = block.getType();
 			int offset = 2;
 			Location spot = player.getLocation();
 			

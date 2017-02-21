@@ -5,7 +5,7 @@ description: Test Plugin
 
 commands:
     remuu:
-        descrpition: "Get Rem to tell you a secret!"
+        description: "Get Rem to tell you a secret!"
         permission: test.remuu
         usage: "/remuu"
     location:
@@ -13,7 +13,7 @@ commands:
         permission: test.location
         usage: "/location"
     change:
-        description: "Changes block under player to Glowstone"
+        description: "Changes block under player to glowstone"
         permission: test.change
         usage: "/change"
     build:
@@ -24,3 +24,11 @@ commands:
         description: "Creates a swastika out of glowstone"
         permission: test.swastika
         usage: "/swas"
+    house:
+        description: "Builds a house!"
+        permission: test.house
+        usage: "/house"
+    pig:
+        description: "Spawns a pig friend!"
+        permission: test.pig
+        usage: "/pig"

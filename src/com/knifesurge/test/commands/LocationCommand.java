@@ -15,7 +15,7 @@ public class LocationCommand implements CommandExecutor{
 		if(player instanceof Player)
 		{
 			Location spot = player.getEyeLocation();
-			player.sendMessage(ChatColor.translateAlternateColorCodes('&',"&6X: " + spot.getX() + ", Y: " + spot.getY() + ", Z: " + spot.getZ()));
+			player.sendMessage(ChatColor.translateAlternateColorCodes('&',"&6X: " + (int)spot.getX() + ", Y: " + (int)spot.getY() + ", Z: " + (int)spot.getZ()));
 		} else
 		{
 			player.sendMessage("Unavailable in console");
